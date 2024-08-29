@@ -63,4 +63,31 @@ public class CajaFuerteTest {
         assertEquals(valorEsperado,valorObtenido);
     }
 
+    @Test
+    public void desbloquearCajaFuerte(){
+        //preparacion
+        Integer clave = 235;
+        Integer res= 4321;
+        cajaFuerte.crearClave(clave);   //genero clave
+        cajaFuerte.setPuertaAbierta(false); //cierro puerta
+        cajaFuerte.cerrarCajaFuerte(clave); // cierro la caja
+        cajaFuerte.abrirCajaFuerte(1);
+        cajaFuerte.abrirCajaFuerte(2);
+        cajaFuerte.abrirCajaFuerte(3);
+        cajaFuerte.abrirCajaFuerte(4);
+        Boolean valorEsperado = false;
+        //ejecucion
+        cajaFuerte.desbloquearCajaFuerte(res);
+        Boolean valorObtenido = cajaFuerte.getEstaCerrada();
+        //contrastacion
+        assertEquals(valorEsperado,valorObtenido);
+    }
+
+//    @Test
+//    public void cambioReset(){
+//        //preparacion
+//        //ejecucion
+//        //contrastacion
+//    }
+
 }

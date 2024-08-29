@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f5ae0b9-6c5a-43ee-8b6a-0fc8b2884a11" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CajaFuerte.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ar/edu/unahur/obj2/CajaFuerte.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ar/edu/unahur/obj2/CajaFuerteTest.java" afterDir="false" />
+    <list default="true" id="0f5ae0b9-6c5a-43ee-8b6a-0fc8b2884a11" name="Changes" comment="creacion con test 28/8">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ar/edu/unahur/obj2/CajaFuerte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ar/edu/unahur/obj2/CajaFuerte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ar/edu/unahur/obj2/CajaFuerteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ar/edu/unahur/obj2/CajaFuerteTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +41,7 @@
     "JUnit.CajaFuerteTest.cerrarCajaFuerte.executor": "Run",
     "JUnit.CajaFuerteTest.creacionCajaFuerte.executor": "Run",
     "JUnit.CajaFuerteTest.crearClave.executor": "Run",
+    "JUnit.CajaFuerteTest.desbloquearCajaFuerte.executor": "Run",
     "JUnit.CajaFuerteTest.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -69,7 +65,7 @@
       <recent name="ar.edu.unahur.obj2" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CajaFuerteTest.abrirCajaFuerte">
+  <component name="RunManager" selected="JUnit.CajaFuerteTest.desbloquearCajaFuerte">
     <configuration name="CajaFuerteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CajaFuerte" />
       <extension name="coverage">
@@ -133,7 +129,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CajaFuerteTest.crearClave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CajaFuerteTest.desbloquearCajaFuerte" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CajaFuerte" />
       <extension name="coverage">
         <pattern>
@@ -143,7 +139,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="ar.edu.unahur.obj2" />
       <option name="MAIN_CLASS_NAME" value="ar.edu.unahur.obj2.CajaFuerteTest" />
-      <option name="METHOD_NAME" value="crearClave" />
+      <option name="METHOD_NAME" value="desbloquearCajaFuerte" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -151,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CajaFuerteTest.abrirCajaFuerte" />
+        <item itemvalue="JUnit.CajaFuerteTest.desbloquearCajaFuerte" />
         <item itemvalue="JUnit.CajaFuerteTest" />
+        <item itemvalue="JUnit.CajaFuerteTest.abrirCajaFuerte" />
         <item itemvalue="JUnit.CajaFuerteTest.cerrarCajaFuerte" />
         <item itemvalue="JUnit.CajaFuerteTest.creacionCajaFuerte" />
-        <item itemvalue="JUnit.CajaFuerteTest.crearClave" />
       </list>
     </recent_temporary>
   </component>
@@ -168,6 +164,19 @@
       <option name="presentableId" value="Default" />
       <updated>1724854769218</updated>
     </task>
+    <task id="LOCAL-00001" summary="creacion con test 28/8">
+      <option name="closed" value="true" />
+      <created>1724869225492</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724869225492</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="creacion con test 28/8" />
+    <option name="LAST_COMMIT_MESSAGE" value="creacion con test 28/8" />
   </component>
 </project>

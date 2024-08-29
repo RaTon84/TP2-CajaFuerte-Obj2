@@ -1,13 +1,12 @@
 package ar.edu.unahur.obj2;
 
 public class CajaFuerte {
-
     private Integer reset;
     private Boolean estaCerrada;
     private Integer clave;
     private Boolean puertaAbierta;
     private Integer intentos;
-
+    private Boolean estaEnModoRoot;
 
     public CajaFuerte(Integer reset) {
         this.reset = reset;
@@ -50,7 +49,14 @@ public class CajaFuerte {
             intentos -= 1;
         } else {
             this.estaCerrada = false;
+            this.intentos = 2;
         }
     }
-
+    public void desbloquearCajaFuerte(Integer reset) {
+        if (this.reset.equals(reset)) { ///usar el this o get o nada?, al comparar son objetos
+            this.estaCerrada = false;
+            this.clave = null;
+            this.intentos = 2;
+        }
+    }
 }
