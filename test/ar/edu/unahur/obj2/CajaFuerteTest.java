@@ -83,11 +83,17 @@ public class CajaFuerteTest {
         assertEquals(valorEsperado,valorObtenido);
     }
 
-//    @Test
-//    public void cambioReset(){
-//        //preparacion
-//        //ejecucion
-//        //contrastacion
-//    }
+    @Test
+    public void cambioReset(){
+        //preparacion
+        Integer nuevaReset = 1111;
+        CajaFuerte cajaFuerte = new CajaFuerte(4321);
+        Boolean valorEsperado = true;
+        //ejecucion
+        cajaFuerte.cambioReset(nuevaReset);
+        Boolean valorObtenido = cajaFuerte.getReset().equals(nuevaReset);
+        //contrastacion
+        assertEquals(valorEsperado,valorObtenido);
+    }
 
 }

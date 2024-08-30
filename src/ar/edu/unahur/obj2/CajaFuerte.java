@@ -1,12 +1,12 @@
 package ar.edu.unahur.obj2;
 
 public class CajaFuerte {
+
     private Integer reset;
     private Boolean estaCerrada;
     private Integer clave;
     private Boolean puertaAbierta;
     private Integer intentos;
-    private Boolean estaEnModoRoot;
 
     public CajaFuerte(Integer reset) {
         this.reset = reset;
@@ -15,12 +15,14 @@ public class CajaFuerte {
         this.estaCerrada = false;
         this.intentos = 2;
     }
-
     public Integer getClave() {
         return clave;
     }
     public Boolean getEstaCerrada() {
         return estaCerrada;
+    }
+    public Integer getReset() {
+        return reset;
     }
     public void setPuertaAbierta(Boolean puertaAbierta) {
         this.puertaAbierta = puertaAbierta;
@@ -59,4 +61,7 @@ public class CajaFuerte {
             this.intentos = 2;
         }
     }
+    public void cambioReset(Integer nuevoReset) {
+        this.reset = nuevoReset;
+    } ///es un set hace falta?
 }
